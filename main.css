@@ -114,8 +114,9 @@ select {
 }
 .text-link {
   font-family: "Archivo", sans-serif;
-  color: #3b5434;
+  color: var(--primary-color);
 }
+/* color: #3b5434; */
 
 .text-link {
   text-decoration: none;
@@ -248,6 +249,15 @@ select {
 h4 {
   padding-left: 70px;
   font-family: "Archivo", sans-serif;
+}
+
+.footer a {
+  font-family: "Archivo", sans-serif;
+  color: white;
+}
+
+.padding {
+  padding: 70px;
 }
 /* .show-in-row {
   flex-direction: column;
