@@ -255,9 +255,19 @@ h4 {
   font-family: "Archivo", sans-serif;
   color: white;
 }
+.footer a {
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
 
 .padding {
   padding: 70px;
+}
+
+.div {
+  font-family: "Archivo", sans-serif;
 }
 /* .show-in-row {
   flex-direction: column;
