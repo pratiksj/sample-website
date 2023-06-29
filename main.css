@@ -1,0 +1,156 @@
+:root {
+  --primary-color: #5d8850;
+  --secondary-color: #3b5434;
+}
+
+.split-pair {
+  justify-content: space-around;
+}
+.align-center {
+  align-items: center;
+}
+.logo {
+  font-size: 40px;
+  font-family: "Archivo", sans-serif;
+  color: var(--primary-color);
+}
+.text-link {
+  font-family: "Archivo", sans-serif;
+  color: #3b5434;
+}
+
+.text-link {
+  text-decoration: none;
+}
+.text-link:hover {
+  text-decoration: underline;
+}
+.text-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* height: 100vh; */
+}
+.text-center .h1 {
+  font-size: 80px;
+  font-family: "Archivo", sans-serif;
+}
+.text-center .h5 {
+  text-align: center;
+  font-size: 24px;
+  font-family: "Nunito", sans-serif;
+  padding-left: 60px;
+  padding-right: 60px;
+  /* font-weight: 200; */
+}
+.region-lg {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.flex {
+  display: flex;
+}
+.gap-2 {
+  gap: 32px;
+}
+.split-center {
+  justify-content: center;
+}
+.primary-button {
+  padding: 16px 48px;
+  background-color: #5d8850;
+  color: #ffffff;
+  border: 1px solid #5d8850;
+  text-decoration: none;
+  font-size: 24px;
+  /* &:hover {
+    background-color: #5d8850;
+  } */
+}
+.primary-button:hover {
+  background-color: #23411a;
+}
+.secondary-button {
+  padding: 16px 48px;
+  border: 1px solid #000;
+  color: #202123;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.dark-bg {
+  background-color: #3d5735;
+  color: #ffffff;
+}
+.h4 {
+  font-size: 32px;
+  padding: 70px;
+}
+.space-evenly {
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 70px;
+}
+.space {
+  padding-bottom: 50px;
+}
+.space-between {
+  padding-left: 150px;
+  padding-right: 50px;
+}
+
+.gap-3 {
+  gap: 80px;
+}
+.h5 {
+  font-size: 24px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 200;
+}
+
+.paragraph {
+  font-size: 18px;
+  font-family: "Archivo", sans-serif;
+}
+
+.h2 {
+  font-size: 64px;
+  font-family: "Archivo", sans-serif;
+}
+.wrapper {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.team-para-space {
+  padding: 70px;
+  padding-top: 0px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Adjust the number of columns as per your preference */
+  gap: 20px; /* Adjust the gap between cards as per your preference */
+}
+
+.member-card {
+  /* display: flex; */
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.member-card img {
+  width: 100px;
+  height: 170px;
+  margin-right: 20px;
+}
+.member-detail h3,
+h4 {
+  padding-left: 70px;
+  font-family: "Archivo", sans-serif;
+}
+/* .show-in-row {
+  flex-direction: column;
+} */
